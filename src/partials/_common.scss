@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: rgb(232,232,232);
+}
+
+.container {
+  @include container;
+}
+
+.pt-2 {
+  padding-top: 0.5em;
+}
+
+.pt-4 {
+  padding-top: 1em;
+}
+
+.pt-5 {
+  padding-top: 1.25em;
+}
+
+.pt-9 {
+  padding-top: 2.5em;
+}
+
+.pt-10 {
+  padding-top: 3em;
+}

@@ -1,0 +1,24 @@
+nav {
+  img {
+    width: 80%;
+  }
+
+  ul.bottom-nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+
+    li {
+      color: $colorwhite;
+      margin-right: 15px;
+      font-size: 14px;
+      i {
+        color: $colorwhite;
+        font-size: 9px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+}

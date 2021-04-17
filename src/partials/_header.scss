@@ -1,0 +1,26 @@
+@import "_navbar.scss";
+
+header {
+  background-color: $colorblack;
+  height: 90px;
+
+  .container {
+    @include container;
+
+    ul.top-nav {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: baseline;
+      li {
+        color: $colornav;
+        margin-right: 10px;
+        font-size: 12px;
+        i {
+          color: rgb(0,156,255);
+        }
+      }
+    }
+
+  }
+}

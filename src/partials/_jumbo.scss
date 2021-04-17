@@ -1,0 +1,50 @@
+section[role=jumbo]{
+  .bg-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+  }
+
+  div.container {
+
+    div.jumbo {
+      width: 50%;
+      div.jumbo-title {
+        img {
+          width: 250px;
+        }
+        p {
+          font-size: 20px;
+          margin-top: 12px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    div.jumbo-offer {
+      p {
+        color: rgb(208,66,177);
+        font-style: italic;
+        &:first-child {
+          font-weight: 700;
+        }
+      }
+    }
+
+    div.jumbo-btn {
+      .black {
+        @include button;
+        margin-right: 10px;
+        background-color: $colorblack;
+        color: $colorwhite;
+      }
+      .transparent {
+        @include button;
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+      }
+    }
+
+  }
+}
