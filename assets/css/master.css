@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -39,18 +39,21 @@ body {
   padding-top: 3em;
 }
 
+.pb-10 {
+  padding-bottom: 3em;
+}
+
 nav img {
   width: 80%;
 }
 nav ul.bottom-nav {
   display: flex;
   list-style: none;
-  justify-content: flex-start;
   align-items: center;
 }
 nav ul.bottom-nav li {
   color: white;
-  margin-right: 15px;
+  margin-right: 40px;
   font-size: 14px;
 }
 nav ul.bottom-nav li i {
@@ -64,7 +67,7 @@ header {
   height: 90px;
 }
 header .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 header .container ul.top-nav {
@@ -208,4 +211,80 @@ section[role=main] div.container div.modules div.content a {
   text-transform: uppercase;
   background-color: white;
   color: black;
+}
+
+section[role=links] {
+  background-color: #ececec;
+}
+section[role=links] div.container {
+  display: flex;
+  justify-content: space-between;
+}
+section[role=links] div.container ul {
+  list-style: none;
+}
+section[role=links] div.container ul li:first-child {
+  margin-bottom: 10px;
+}
+section[role=links] div.container ul li a {
+  color: #98875f;
+  font-size: 12px;
+  line-height: 24px;
+}
+section[role=links] div.container ul div.socials {
+  text-align: center;
+}
+section[role=links] div.container ul div.socials i {
+  width: 40px;
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  border: 1px solid;
+  margin-right: 5px;
+}
+section[role=links] div.container ul div.socials i.fa-instagram {
+  background-color: #e4405f;
+}
+section[role=links] div.container ul div.socials i.fa-facebook-f {
+  background-color: #3b5998;
+}
+section[role=links] div.container ul div.socials i.fa-twitter {
+  background-color: #1da1f2;
+}
+section[role=links] div.container ul div.socials i.fa-youtube-square {
+  background-color: #cd201f;
+}
+section[role=links] div.container ul div.socials i.fa-pinterest-p {
+  background-color: #bd081c;
+}
+section[role=links] div.container ul div.socials i.fa-rss {
+  background-color: #ff8d00;
+}
+
+section[role=copyright] {
+  background-color: #1e1e1e;
+}
+section[role=copyright] div.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+section[role=copyright] div.container div.footer-left img {
+  margin-right: 20px;
+}
+section[role=copyright] div.container div.footer-right {
+  display: flex;
+  align-items: center;
+}
+section[role=copyright] div.container div.footer-right ul {
+  list-style: none;
+  display: flex;
+}
+section[role=copyright] div.container div.footer-right ul li {
+  color: #98875f;
+  font-size: 12px;
+  margin-left: 20px;
+}
+section[role=copyright] div.container div.footer-right ul li:last-child {
+  color: white;
 }

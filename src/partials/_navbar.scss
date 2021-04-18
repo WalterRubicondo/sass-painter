@@ -6,12 +6,11 @@ nav {
   ul.bottom-nav {
     display: flex;
     list-style: none;
-    justify-content: flex-start;
     align-items: center;
 
     li {
       color: $colorwhite;
-      margin-right: 15px;
+      margin-right: 40px;
       font-size: 14px;
       i {
         color: $colorwhite;
